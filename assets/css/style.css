@@ -12,7 +12,7 @@
 
 .container{
   width: 70%;
-  height: 100%;
+  height: auto;
   margin:0 auto;
 
   /* DA TOGLIERE */
@@ -21,7 +21,9 @@
 
 body{
   font-family: arial;
+  min-width: 1200px;
 }
+
 /* 
 GENERAL 
 */
@@ -34,12 +36,22 @@ GENERAL
   text-decoration: none;
 }
 
+.button.big{
+  border-radius: 100px;
+  padding: 20px 30px;
+}
+
+.button.big.dark{
+  color:white;
+  background-color: #23272a;
+}
+
 /* 
 HEADER 
 */
 
 header{
-  height: 80px;
+  height: 100px;
   /* DA TOGLIERE */
   background-color: #3161e0;
 }
@@ -47,20 +59,21 @@ header{
 .header-col{
   float: left;
   line-height: 80px;
-}
-
-.header-col.col-middle{
-  width: 50%;
-  text-align: center;
+  height: 100%;
 }
 
 .header-col.col-left{
-  width: 25%;
+  width: 10%;
   text-align: left;
 }
 
+.header-col.col-middle{
+  width: 80%;
+  text-align: center;
+}
+
 .header-col.col-right{
-  width: 25%;
+  width: 10%;
   text-align: right;
 }
 
@@ -71,13 +84,13 @@ header{
 .header-col.col-middle ul li{
   display: inline-block;
   list-style: none;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .header-col.col-middle ul li a{
   text-decoration: none;
   color: white;
-  font-size: 1.3rem ;
+  font-size: 15px ;
 }
 
 /* 
@@ -94,13 +107,25 @@ JUMBOTRON
 
 .jumbotron-content-box{
   width: 80%;
+  height:auto;
   margin:0 auto;
-
-
+  text-align: center;
+  color: white;
+  padding-top: 10%;
   /* DA TOGLIERE */
   background-color: aquamarine;
-  height: 400px;
 }
+
+.jumbotron-content-box h1{
+  font-size: 3vw;
+}
+
+.jumbotron-content-box p{
+  padding: 5% 20%;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
 
 /* 
 MAIN 
