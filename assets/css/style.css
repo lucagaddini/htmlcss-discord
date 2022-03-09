@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header{
   background-color: #3161e0;
   height: 80px;
@@ -24,10 +30,28 @@ header{
 
 .jumbotron-content-box{
   width: 80%;
-
   /* DA TOGLIERE */
   height: 400px;
 
-  margin:50px auto;
+  margin:0 auto;
   background-color: aquamarine;
+}
+
+.section-main-content{
+  background-color: white;
+  width: 100%;
+  /* DA TOGLIERE */
+  height: 400px;
+}
+
+.section-main-content.background-secondary{
+  background-color: #f6f6f6;
+}
+
+.main-content-col-a, .main-content-col-b{
+  float: left;
+  background-color: lightskyblue;
+  width: 50%;
+  height: auto;
+  padding: 10px;
 }
