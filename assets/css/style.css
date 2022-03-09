@@ -10,13 +10,6 @@
   clear: both;
 }
 
-header{
-  height: 80px;
-
-  /* DA TOGLIERE */
-  background-color: #3161e0;
-}
-
 .container{
   width: 70%;
   height: 100%;
@@ -25,6 +18,41 @@ header{
   /* DA TOGLIERE */
   background: lightsalmon;
 }
+
+/* 
+HEADER 
+*/
+
+header{
+  height: 80px;
+  /* DA TOGLIERE */
+  background-color: #3161e0;
+}
+
+.header-col{
+  float: left;
+  line-height: 80px;
+}
+
+.header-col.col-middle{
+  width: calc(100%/2);
+  text-align: center;
+}
+
+.header-col.col-left{
+  width: calc(100%/4);
+  text-align: left;
+}
+
+.header-col.col-right{
+  width: calc(100%/4);
+  text-align: right;
+}
+
+
+/* 
+JUMBOTRON 
+*/
 
 .jumbotron{
   width: 100%;
@@ -43,6 +71,10 @@ header{
   background-color: aquamarine;
   height: 400px;
 }
+
+/* 
+MAIN 
+*/
 
 /* WHITE SECTION */
 .section-main-content{
@@ -78,6 +110,10 @@ header{
   /* DA TOGLIERE */
   background-color: lightgoldenrodyellow;
 }
+
+/* 
+FOOTER 
+*/
 
 footer{
   background-color: #23272a;
