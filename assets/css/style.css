@@ -87,9 +87,9 @@ JUMBOTRON
 .jumbotron{
   width: auto;
   height: 800px;
-
-  /* DA TOGLIERE */
-  background-color: lightblue;
+  background-image: url("../img/jumbo.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .jumbotron-content-box{
