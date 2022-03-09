@@ -13,7 +13,8 @@
 .container{
   width: 70%;
   height: auto;
-  margin:0 auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
 
   /* DA TOGLIERE */
   /* background: lightsalmon; */
@@ -34,6 +35,7 @@ GENERAL
   border-radius: 100px;
   padding: 10px 20px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .button.big{
@@ -41,9 +43,14 @@ GENERAL
   padding: 20px 30px;
 }
 
-.button.big.dark{
+.button.dark{
   color:white;
   background-color: #23272a;
+}
+
+.button.light{
+  color:white;
+  background-color: #8fa1e1;
 }
 
 /* 
@@ -93,6 +100,10 @@ header{
   font-size: 15px ;
 }
 
+.button.button-header{
+  display: inline;
+}
+
 /* 
 JUMBOTRON 
 */
@@ -133,7 +144,8 @@ MAIN
   background-color: white;
   width: 100%;
   height: auto;
-  margin: 30px 0;
+  /* margin: 30px 0; */
+  padding: 40px;
 }
 
 /* GREY SECTION */
@@ -156,15 +168,16 @@ MAIN
 
 /* Image size */
 .main-content-col.image img{
-  width: 90%;
-  height: 100%;
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
 }
 
 /* column with text */
 .main-content-col.text{
   width: calc(100%/2 - 15%);
   height: 100%;
-  padding: 80px;
+  padding: 65px;
   /* DA TOGLIERE
   background-color: lightskyblue; */
 }
@@ -174,20 +187,45 @@ MAIN
 }
 
 .main-content-col.text p{
+  margin-top: 20px;
   font-size: 1.2vw;
 }
 
+/* /column with text */
 
 .main-content-row{
-  float: left;
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding-top: 20px;
   text-align: center;
 
-  /* DA TOGLIERE */
-  background-color: lightgoldenrodyellow;
+  /* DA TOGLIERE
+  background-color: lightgoldenrodyellow; */
 }
+
+.main-content-row h3{
+  padding: 20px 0;
+  font-size: 2vw;
+}
+
+.main-content-row p{
+  margin-top: 20px;
+  font-size: 1.2vw;
+}
+
+.main-content-row img{
+  width: 100%;
+  height: auto;
+}
+
+.star-background{
+  background-image: url('../img/stars.svg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 
 /* 
 FOOTER 
@@ -203,7 +241,7 @@ footer{
 
 .footer-column-box{
   width: 100%;
-
+  padding: 50px 0;
   /* DA TOGLIERE */
   height: 200px;
   background-color: lightseagreen;
@@ -229,14 +267,51 @@ footer{
   background-color: lightpink;
 }
 
+.footer-column-box h3, h4{
+  color: #7a94d9;
+}
+
+.footer-column-box h3{
+  font-size: 2vw;
+  padding-bottom: 20px;
+}
+
+.footer-column-big .flag{
+  vertical-align: middle;
+  height: 15px ;
+}
+
+
+.footer-column-big  ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 20px 10px;
+
+}
+
+.header-col.col-middle ul li a{
+  text-decoration: none;
+}
+
+.fa-brands{
+  color: white;
+
+}
+
+
+
+
 .footer-col{
   float: left;
   width: 50%;
-  height: auto;
-  padding: 10px;
+  height: 100%;
 
   /* DA TOGLIERE */
   background-color: lightskyblue;
+}
+
+.footer-col img{
+  vertical-align: middle;
 }
 
 .footer-col.right{
