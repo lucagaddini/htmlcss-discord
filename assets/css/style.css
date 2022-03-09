@@ -225,8 +225,6 @@ MAIN
   background-size: contain;
 }
 
-
-
 /* 
 FOOTER 
 */
@@ -234,17 +232,17 @@ FOOTER
 footer{
   background-color: #23272a;
   width: 100%;
-
-  /* DA TOGLIERE */
-  height: 400px;
+  height: auto;
+  padding: 50px 0;
 }
 
 .footer-column-box{
   width: 100%;
-  padding: 50px 0;
-  /* DA TOGLIERE */
+  height: auto;
+  padding-bottom: 20px;
+  /* DA TOGLIERE
   height: 200px;
-  background-color: lightseagreen;
+  background-color: lightseagreen; */
 }
 
 .footer-column-big{
@@ -252,8 +250,8 @@ footer{
   width: calc(100%/5 + 5%*4);
   height: auto;
 
-  /* DA TOGLIERE */
-  background-color: lightpink;
+  /* DA TOGLIERE
+  background-color: lightpink; */
 }
 
 .footer-column-small{
@@ -261,8 +259,8 @@ footer{
   width: calc(100%/5 - 5%);
   height: auto;
 
-  /* DA TOGLIERE */
-  background-color: lightpink;
+  /* DA TOGLIERE
+  background-color: lightpink; */
 }
 
 .footer-column-box h3, h4, h5{
@@ -282,8 +280,7 @@ footer{
 .footer-column-big  ul li{
   display: inline-block;
   list-style: none;
-  padding: 20px 10px;
-
+  padding: 20px 10px 20px 0;
 }
 
 .fa-brands, .footer-column-big span {
@@ -300,19 +297,24 @@ footer{
   color: white;
 }
 
-.footer-col{
+.footer-bottom{
+  border-top: 2px solid #7a94d9;
+  padding-top: 20px;
+}
+
+.footer-bottom .footer-col{
   float: left;
   width: 50%;
   height: 100%;
 
-  /* DA TOGLIERE */
-  background-color: lightskyblue;
+  /* DA TOGLIERE
+  background-color: lightskyblue; */
 }
 
-.footer-col img{
+.footer-bottom .footer-col img{
   vertical-align: middle;
 }
 
-.footer-col.right{
+.footer-bottom .footer-col.right{
   text-align: right;
 }
