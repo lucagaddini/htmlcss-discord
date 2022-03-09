@@ -253,21 +253,19 @@ footer{
   height: auto;
 
   /* DA TOGLIERE */
-  height: 50px;
   background-color: lightpink;
 }
 
 .footer-column-small{
   float: left;
   width: calc(100%/5 - 5%);
-  
+  height: auto;
 
   /* DA TOGLIERE */
-  height: 50px;
   background-color: lightpink;
 }
 
-.footer-column-box h3, h4{
+.footer-column-box h3, h4, h5{
   color: #7a94d9;
 }
 
@@ -281,7 +279,6 @@ footer{
   height: 15px ;
 }
 
-
 .footer-column-big  ul li{
   display: inline-block;
   list-style: none;
@@ -289,17 +286,19 @@ footer{
 
 }
 
-.header-col.col-middle ul li a{
-  text-decoration: none;
-}
-
-.fa-brands{
+.fa-brands, .footer-column-big span {
   color: white;
-
 }
 
+.footer-column-small  ul li{
+  list-style: none;
+  padding: 5px 0;
+}
 
-
+.footer-column-small ul li a{
+  text-decoration: none;
+  color: white;
+}
 
 .footer-col{
   float: left;
