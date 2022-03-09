@@ -98,34 +98,31 @@ JUMBOTRON
 */
 
 .jumbotron{
-  width: auto;
-  height: 800px;
+  width: 100%;
+  height: 700px;
   background-image: url("../img/jumbo.png");
   background-position: center;
   background-size: cover;
 }
 
 .jumbotron-content-box{
-  width: 80%;
+  width: 100%;
   height:auto;
   margin:0 auto;
   text-align: center;
   color: white;
   padding-top: 10%;
-  /* DA TOGLIERE */
-  background-color: aquamarine;
 }
 
 .jumbotron-content-box h1{
-  font-size: 3vw;
+  font-size: 60px;
 }
 
 .jumbotron-content-box p{
-  padding: 5% 20%;
-  font-size: 1.3vw;
+  padding:4% 25%;
+  font-size: 25px;
   text-align: center;
 }
-
 
 /* 
 MAIN 
