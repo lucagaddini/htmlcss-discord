@@ -132,9 +132,8 @@ MAIN
 .section-main-content{
   background-color: white;
   width: 100%;
-
-  /* DA TOGLIERE */
-  height: 400px;
+  height: auto;
+  margin: 30px 0;
 }
 
 /* GREY SECTION */
@@ -144,13 +143,40 @@ MAIN
 
 .main-content-col{
   float: left;
-  width: 50%;
-  height: auto;
-  padding: 10px;
-
-  /* DA TOGLIERE */
-  background-color: lightskyblue;
 }
+
+/* column with image */
+.main-content-col.image{
+  width: calc(100%/2 + 15%);
+  height: 100%;
+
+  /* DA TOGLIERE
+  background-color: lightskyblue; */
+}
+
+/* Image size */
+.main-content-col.image img{
+  width: 90%;
+  height: 100%;
+}
+
+/* column with text */
+.main-content-col.text{
+  width: calc(100%/2 - 15%);
+  height: 100%;
+  padding: 80px;
+  /* DA TOGLIERE
+  background-color: lightskyblue; */
+}
+
+.main-content-col.text h3{
+  font-size: 2vw;
+}
+
+.main-content-col.text p{
+  font-size: 1.2vw;
+}
+
 
 .main-content-row{
   float: left;
