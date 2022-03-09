@@ -11,7 +11,9 @@
 }
 
 header{
+  /* DA TOGLIERE */
   background-color: #3161e0;
+  /* /DA TOGLIERE */
   height: 80px;
 }
 
@@ -19,39 +21,61 @@ header{
   width: 70%;
   height: 100%;
   margin:0 auto;
+  /* DA TOGLIERE */
   background: lightsalmon;
+  /* /DA TOGLIERE */
 }
 
 .jumbotron{
   width: 100%;
   height: 800px;
+  /* DA TOGLIERE */
   background-color: lightblue;
+  /* /DA TOGLIERE */
 }
 
 .jumbotron-content-box{
   width: 80%;
   /* DA TOGLIERE */
   height: 400px;
-
+  /* /DA TOGLIERE */
   margin:0 auto;
+  /* DA TOGLIERE */
   background-color: aquamarine;
+  /* /DA TOGLIERE */
 }
 
+/* WHITE SECTION */
 .section-main-content{
   background-color: white;
   width: 100%;
   /* DA TOGLIERE */
   height: 400px;
+  /* /DA TOGLIERE */
 }
 
+/* GREY SECTION */
 .section-main-content.background-secondary{
   background-color: #f6f6f6;
 }
 
-.main-content-col-a, .main-content-col-b{
+.main-content-col{
   float: left;
+  /* DA TOGLIERE */
   background-color: lightskyblue;
+  /* /DA TOGLIERE */
   width: 50%;
   height: auto;
   padding: 10px;
+}
+
+.main-content-row{
+  float: left;
+  /* DA TOGLIERE */
+  background-color: lightgoldenrodyellow;
+  /* /DA TOGLIERE */
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
 }
