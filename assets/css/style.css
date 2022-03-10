@@ -59,13 +59,13 @@ HEADER
 
 header{
   height: 100px;
-  /* DA TOGLIERE */
   background-color: #3161e0;
+  line-height: 100px;
 }
 
 .header-col{
   float: left;
-  line-height: 80px;
+  
   height: 100%;
 }
 
