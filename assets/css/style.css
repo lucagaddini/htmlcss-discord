@@ -15,9 +15,6 @@
   height: auto;
   margin: 0 auto;
   padding-bottom: 20px;
-
-  /* DA TOGLIERE */
-  /* background: lightsalmon; */
 }
 
 body{
@@ -53,6 +50,33 @@ GENERAL
   background-color: #8fa1e1;
 }
 
+
+/* 
+HEADER PORTFOLIO
+*/
+
+
+.navbar_personal{ 
+  background-color: #1a1919;
+}
+
+.navbar_personal a{
+  text-decoration: none;
+  color: #959595;
+  font-size: 16px;
+}
+
+.navbar_personal a:hover,
+.navbar_personal a:hover .nav-link{
+  color: #3266ff !important;
+}
+
+.portfolio_logo img{
+  width: 40px; 
+}
+
+
+
 /* 
 HEADER 
 */
@@ -65,7 +89,6 @@ header{
 
 .header-col{
   float: left;
-  
   height: 100%;
 }
 
